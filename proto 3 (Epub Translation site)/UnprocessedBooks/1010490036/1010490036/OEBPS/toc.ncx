@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="zh-TW">
+  <head>
+    <meta name="dtb:uid" content="www.haodoo.net"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>《《夜行馬戲團》》﻿（美）艾琳．莫根斯坦</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="0" playOrder="1">
+      <navLabel>
+        <text>目錄</text>
+      </navLabel>
+      <content src="0.xhtml"/>
+    </navPoint>
+    <navPoint id="1" playOrder="2">
+      <navLabel>
+        <text>《夜行馬戲團》</text>
+      </navLabel>
+      <content src="1.xhtml"/>
+    </navPoint>
+    <navPoint id="2" playOrder="3">
+      <navLabel>
+        <text>簡介</text>
+      </navLabel>
+      <content src="2.xhtml"/>
+    </navPoint>
+    <navPoint id="3" playOrder="4">
+      <navLabel>
+        <text>作者簡介</text>
+      </navLabel>
+      <content src="3.xhtml"/>
+    </navPoint>
+    <navPoint id="4" playOrder="5">
+      <navLabel>
+        <text>期盼</text>
+      </navLabel>
+      <content src="4.xhtml"/>
+    </navPoint>
+    <navPoint id="5" playOrder="6">
+      <navLabel>
+        <text>PART 1</text>
+      </navLabel>
+      <content src="5.xhtml"/>
+    </navPoint>
+    <navPoint id="6" playOrder="7">
+      <navLabel>
+        <text>意外的郵件</text>
+      </navLabel>
+      <content src="6.xhtml"/>
+    </navPoint>
+    <navPoint id="7" playOrder="8">
+      <navLabel>
+        <text>一位紳士的賭注</text>
+      </navLabel>
+      <content src="7.xhtml"/>
+    </navPoint>
+    <navPoint id="8" playOrder="9">
+      <navLabel>
+        <text>層層疊疊的灰</text>
+      </navLabel>
+      <content src="8.xhtml"/>
+    </navPoint>
+    <navPoint id="9" playOrder="10">
+      <navLabel>
+        <text>魔術課程</text>
+      </navLabel>
+      <content src="9.xhtml"/>
+    </navPoint>
+    <navPoint id="10" playOrder="11">
+      <navLabel>
+        <text>Le Bateleur</text>
+      </navLabel>
+      <content src="10.xhtml"/>
+    </navPoint>
+    <navPoint id="11" playOrder="12">
+      <navLabel>
+        <text>虛假的偽裝</text>
+      </navLabel>
+      <content src="11.xhtml"/>
+    </navPoint>
+    <navPoint id="12" playOrder="13">
+      <navLabel>
+        <text>飛刀練習</text>
+      </navLabel>
+      <content src="12.xhtml"/>
+    </navPoint>
+    <navPoint id="13" playOrder="14">
+      <navLabel>
+        <text>黑暗&星光</text>
+      </navLabel>
+      <content src="13.xhtml"/>
+    </navPoint>
+    <navPoint id="14" playOrder="15">
+      <navLabel>
+        <text>真心話或大冒險</text>
+      </navLabel>
+      <content src="14.xhtml"/>
+    </navPoint>
+    <navPoint id="15" playOrder="16">
+      <navLabel>
+        <text>夥伴與共謀</text>
+      </navLabel>
+      <content src="15.xhtml"/>
+    </navPoint>
+    <navPoint id="16" playOrder="17">
+      <navLabel>
+        <text>弔唁</text>
+      </navLabel>
+      <content src="16.xhtml"/>
+    </navPoint>
+    <navPoint id="17" playOrder="18">
+      <navLabel>
+        <text>軟骨特技演員的刺青</text>
+      </navLabel>
+      <content src="17.xhtml"/>
+    </navPoint>
+    <navPoint id="18" playOrder="19">
+      <navLabel>
+        <text>時鐘</text>
+      </navLabel>
+      <content src="18.xhtml"/>
+    </navPoint>
+    <navPoint id="19" playOrder="20">
+      <navLabel>
+        <text>觀眾</text>
+      </navLabel>
+      <content src="19.xhtml"/>
+    </navPoint>
+    <navPoint id="20" playOrder="21">
+      <navLabel>
+        <text>謀略</text>
+      </navLabel>
+      <content src="20.xhtml"/>
+    </navPoint>
+    <navPoint id="21" playOrder="22">
+      <navLabel>
+        <text>光與火</text>
+      </navLabel>
+      <content src="21.xhtml"/>
+    </navPoint>
+    <navPoint id="22" playOrder="23">
+      <navLabel>
+        <text>隱藏之物</text>
+      </navLabel>
+      <content src="22.xhtml"/>
+    </navPoint>
+    <navPoint id="23" playOrder="24">
+      <navLabel>
+        <text>PART 2</text>
+      </navLabel>
+      <content src="23.xhtml"/>
+    </navPoint>
+    <navPoint id="24" playOrder="25">
+      <navLabel>
+        <text>開幕夜I：起頭</text>
+      </navLabel>
+      <content src="24.xhtml"/>
+    </navPoint>
+    <navPoint id="25" playOrder="26">
+      <navLabel>
+        <text>開幕夜II：閃光</text>
+      </navLabel>
+      <content src="25.xhtml"/>
+    </navPoint>
+    <navPoint id="26" playOrder="27">
+      <navLabel>
+        <text>開幕之夜III：煙與鏡</text>
+      </navLabel>
+      <content src="26.xhtml"/>
+    </navPoint>
+    <navPoint id="27" playOrder="28">
+      <navLabel>
+        <text>懸吊人</text>
+      </navLabel>
+      <content src="27.xhtml"/>
+    </navPoint>
+    <navPoint id="28" playOrder="29">
+      <navLabel>
+        <text>解夢術</text>
+      </navLabel>
+      <content src="28.xhtml"/>
+    </navPoint>
+    <navPoint id="29" playOrder="30">
+      <navLabel>
+        <text>競賽規則</text>
+      </navLabel>
+      <content src="29.xhtml"/>
+    </navPoint>
+    <navPoint id="30" playOrder="31">
+      <navLabel>
+        <text>淺嚐</text>
+      </navLabel>
+      <content src="30.xhtml"/>
+    </navPoint>
+    <navPoint id="31" playOrder="32">
+      <navLabel>
+        <text>有人護送</text>
+      </navLabel>
+      <content src="31.xhtml"/>
+    </navPoint>
+    <navPoint id="32" playOrder="33">
+      <navLabel>
+        <text>盼望與慾求</text>
+      </navLabel>
+      <content src="32.xhtml"/>
+    </navPoint>
+    <navPoint id="33" playOrder="34">
+      <navLabel>
+        <text>氣氛</text>
+      </navLabel>
+      <content src="33.xhtml"/>
+    </navPoint>
+    <navPoint id="34" playOrder="35">
+      <navLabel>
+        <text>夢幻者</text>
+      </navLabel>
+      <content src="34.xhtml"/>
+    </navPoint>
+    <navPoint id="35" playOrder="36">
+      <navLabel>
+        <text>協力合作</text>
+      </navLabel>
+      <content src="35.xhtml"/>
+    </navPoint>
+    <navPoint id="36" playOrder="37">
+      <navLabel>
+        <text>鐘聲滴答</text>
+      </navLabel>
+      <content src="36.xhtml"/>
+    </navPoint>
+    <navPoint id="37" playOrder="38">
+      <navLabel>
+        <text>魔法師的雨傘</text>
+      </navLabel>
+      <content src="37.xhtml"/>
+    </navPoint>
+    <navPoint id="38" playOrder="39">
+      <navLabel>
+        <text>映影與扭曲</text>
+      </navLabel>
+      <content src="38.xhtml"/>
+    </navPoint>
+    <navPoint id="39" playOrder="40">
+      <navLabel>
+        <text>紙牌占卜</text>
+      </navLabel>
+      <content src="39.xhtml"/>
+    </navPoint>
+    <navPoint id="40" playOrder="41">
+      <navLabel>
+        <text>樹木裡的魔法師</text>
+      </navLabel>
+      <content src="40.xhtml"/>
+    </navPoint>
+    <navPoint id="41" playOrder="42">
+      <navLabel>
+        <text>臨時的地方</text>
+      </navLabel>
+      <content src="41.xhtml"/>
+    </navPoint>
+    <navPoint id="42" playOrder="43">
+      <navLabel>
+        <text>移動</text>
+      </navLabel>
+      <content src="42.xhtml"/>
+    </navPoint>
+    <navPoint id="43" playOrder="44">
+      <navLabel>
+        <text>緬懷塔拉．柏傑斯</text>
+      </navLabel>
+      <content src="43.xhtml"/>
+    </navPoint>
+    <navPoint id="44" playOrder="45">
+      <navLabel>
+        <text>迷宮</text>
+      </navLabel>
+      <content src="44.xhtml"/>
+    </navPoint>
+    <navPoint id="45" playOrder="46">
+      <navLabel>
+        <text>貓占卜</text>
+      </navLabel>
+      <content src="45.xhtml"/>
+    </navPoint>
+    <navPoint id="46" playOrder="47">
+      <navLabel>
+        <text>促膝談心</text>
+      </navLabel>
+      <content src="46.xhtml"/>
+    </navPoint>
+    <navPoint id="47" playOrder="48">
+      <navLabel>
+        <text>PART 3</text>
+      </navLabel>
+      <content src="47.xhtml"/>
+    </navPoint>
+    <navPoint id="48" playOrder="49">
+      <navLabel>
+        <text>戀人</text>
+      </navLabel>
+      <content src="48.xhtml"/>
+    </navPoint>
+    <navPoint id="49" playOrder="50">
+      <navLabel>
+        <text>十三</text>
+      </navLabel>
+      <content src="49.xhtml"/>
+    </navPoint>
+    <navPoint id="50" playOrder="51">
+      <navLabel>
+        <text>床邊故事</text>
+      </navLabel>
+      <content src="50.xhtml"/>
+    </navPoint>
+    <navPoint id="51" playOrder="52">
+      <navLabel>
+        <text>簿記</text>
+      </navLabel>
+      <content src="51.xhtml"/>
+    </navPoint>
+    <navPoint id="52" playOrder="53">
+      <navLabel>
+        <text>與萊妮．柏傑斯共飲的三杯茶</text>
+      </navLabel>
+      <content src="52.xhtml"/>
+    </navPoint>
+    <navPoint id="53" playOrder="54">
+      <navLabel>
+        <text>烈風暴雨的海洋</text>
+      </navLabel>
+      <content src="53.xhtml"/>
+    </navPoint>
+    <navPoint id="54" playOrder="55">
+      <navLabel>
+        <text>請求</text>
+      </navLabel>
+      <content src="54.xhtml"/>
+    </navPoint>
+    <navPoint id="55" playOrder="56">
+      <navLabel>
+        <text>邀請</text>
+      </navLabel>
+      <content src="55.xhtml"/>
+    </navPoint>
+    <navPoint id="56" playOrder="57">
+      <navLabel>
+        <text>交叉口I：拋下帽子</text>
+      </navLabel>
+      <content src="56.xhtml"/>
+    </navPoint>
+    <navPoint id="57" playOrder="58">
+      <navLabel>
+        <text>黎明之前的至黑至暗</text>
+      </navLabel>
+      <content src="57.xhtml"/>
+    </navPoint>
+    <navPoint id="58" playOrder="59">
+      <navLabel>
+        <text>交叉口II：猩紅暴怒與血紅命運</text>
+      </navLabel>
+      <content src="58.xhtml"/>
+    </navPoint>
+    <navPoint id="59" playOrder="60">
+      <navLabel>
+        <text>淚池</text>
+      </navLabel>
+      <content src="59.xhtml"/>
+    </navPoint>
+    <navPoint id="60" playOrder="61">
+      <navLabel>
+        <text>告別</text>
+      </navLabel>
+      <content src="60.xhtml"/>
+    </navPoint>
+    <navPoint id="61" playOrder="62">
+      <navLabel>
+        <text>回顧</text>
+      </navLabel>
+      <content src="61.xhtml"/>
+    </navPoint>
+    <navPoint id="62" playOrder="63">
+      <navLabel>
+        <text>美麗的苦痛</text>
+      </navLabel>
+      <content src="62.xhtml"/>
+    </navPoint>
+    <navPoint id="63" playOrder="64">
+      <navLabel>
+        <text>PART 4</text>
+      </navLabel>
+      <content src="63.xhtml"/>
+    </navPoint>
+    <navPoint id="64" playOrder="65">
+      <navLabel>
+        <text>技術性細節</text>
+      </navLabel>
+      <content src="64.xhtml"/>
+    </navPoint>
+    <navPoint id="65" playOrder="66">
+      <navLabel>
+        <text>玩火</text>
+      </navLabel>
+      <content src="65.xhtml"/>
+    </navPoint>
+    <navPoint id="66" playOrder="67">
+      <navLabel>
+        <text>月子</text>
+      </navLabel>
+      <content src="66.xhtml"/>
+    </navPoint>
+    <navPoint id="67" playOrder="68">
+      <navLabel>
+        <text>逃離</text>
+      </navLabel>
+      <content src="67.xhtml"/>
+    </navPoint>
+    <navPoint id="68" playOrder="69">
+      <navLabel>
+        <text>僵局</text>
+      </navLabel>
+      <content src="68.xhtml"/>
+    </navPoint>
+    <navPoint id="69" playOrder="70">
+      <navLabel>
+        <text>訪視</text>
+      </navLabel>
+      <content src="69.xhtml"/>
+    </navPoint>
+    <navPoint id="70" playOrder="71">
+      <navLabel>
+        <text>迷人但致命</text>
+      </navLabel>
+      <content src="70.xhtml"/>
+    </navPoint>
+    <navPoint id="71" playOrder="72">
+      <navLabel>
+        <text>預知</text>
+      </navLabel>
+      <content src="71.xhtml"/>
+    </navPoint>
+    <navPoint id="72" playOrder="73">
+      <navLabel>
+        <text>追趕</text>
+      </navLabel>
+      <content src="72.xhtml"/>
+    </navPoint>
+    <navPoint id="73" playOrder="74">
+      <navLabel>
+        <text>老鬼魂</text>
+      </navLabel>
+      <content src="73.xhtml"/>
+    </navPoint>
+    <navPoint id="74" playOrder="75">
+      <navLabel>
+        <text>餘波</text>
+      </navLabel>
+      <content src="74.xhtml"/>
+    </navPoint>
+    <navPoint id="75" playOrder="76">
+      <navLabel>
+        <text>縱火</text>
+      </navLabel>
+      <content src="75.xhtml"/>
+    </navPoint>
+    <navPoint id="76" playOrder="77">
+      <navLabel>
+        <text>蛻變</text>
+      </navLabel>
+      <content src="76.xhtml"/>
+    </navPoint>
+    <navPoint id="77" playOrder="78">
+      <navLabel>
+        <text>暫時中止</text>
+      </navLabel>
+      <content src="77.xhtml"/>
+    </navPoint>
+    <navPoint id="78" playOrder="79">
+      <navLabel>
+        <text>營火二度點燃</text>
+      </navLabel>
+      <content src="78.xhtml"/>
+    </navPoint>
+    <navPoint id="79" playOrder="80">
+      <navLabel>
+        <text>PART 5</text>
+      </navLabel>
+      <content src="79.xhtml"/>
+    </navPoint>
+    <navPoint id="80" playOrder="81">
+      <navLabel>
+        <text>預測命運</text>
+      </navLabel>
+      <content src="80.xhtml"/>
+    </navPoint>
+    <navPoint id="81" playOrder="82">
+      <navLabel>
+        <text>藍圖</text>
+      </navLabel>
+      <content src="81.xhtml"/>
+    </navPoint>
+    <navPoint id="82" playOrder="83">
+      <navLabel>
+        <text>故事</text>
+      </navLabel>
+      <content src="82.xhtml"/>
+    </navPoint>
+    <navPoint id="83" playOrder="84">
+      <navLabel>
+        <text>好夢</text>
+      </navLabel>
+      <content src="83.xhtml"/>
+    </navPoint>
+  </navMap>
+</ncx>

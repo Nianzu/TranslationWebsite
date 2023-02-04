@@ -1,0 +1,199 @@
+.bodypic {
+    display: block;
+    font-size: 2em;
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px 0 1em
+    }
+.calibre {
+    display: block;
+    font-family: STSong, "Song S", Song;
+    font-size: 1em;
+    line-height: 1.618;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: justify;
+    text-indent: 2em;
+    margin: 0 5pt
+    }
+.calibre1 {
+    text-decoration: none
+    }
+.calibre2 {
+    display: block
+    }
+.calibre3 {
+    display: block;
+    margin: 1em 0
+    }
+.calibre4 {
+    line-height: 1.618;
+    text-indent: 2em
+    }
+.calibre5 {
+    font-weight: bold
+    }
+.calibre6 {
+    display: block;
+    text-align: left;
+    margin: 1em 0
+    }
+.calibre7 {
+    line-height: 1.618;
+    text-align: left;
+    text-indent: 2em
+    }
+.calibre8 {
+    display: block;
+    line-height: 1.2
+    }
+.calibre9 {
+    display: block;
+    font-size: 1.66667em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0.83em 0
+    }
+.calibre10 {
+    font-size: 0.75em;
+    line-height: normal;
+    vertical-align: super
+    }
+.calibre11 {
+    line-height: 1.618;
+    text-decoration: none;
+    text-indent: 2em
+    }
+.calibre12 {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.618;
+    text-indent: 2em
+    }
+.calibre13 {
+    font-size: 1em;
+    line-height: 1.618;
+    text-decoration: none;
+    text-indent: 2em
+    }
+.calibre14 {
+    display: block;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre15 {
+    display: block;
+    border: currentColor none medium;
+    margin: 0 0 0 40px;
+    padding: 0
+    }
+.calibre16 {
+    font-size: 1em;
+    line-height: 1.618em;
+    text-indent: 2em
+    }
+.calibre17 {
+    font-size: 1.29167em
+    }
+.calibre18 {
+    font-style: italic
+    }
+.calibre19 {
+    display: block;
+    font-size: 1.66667em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0.83em 0
+    }
+.calibre20 {
+    font-size: 1em;
+    line-height: 1.618em
+    }
+.calibre21 {
+    text-indent: 2em
+    }
+.calibre22 {
+    display: block;
+    text-align: center;
+    margin: 1em 0
+    }
+.calibre23 {
+    height: auto;
+    width: 95%
+    }
+.conquot {
+    display: block;
+    font-size: 1.29167em;
+    letter-spacing: auto;
+    line-height: 1.5em;
+    text-align: center;
+    text-indent: 48px;
+    margin: 5pt 0
+    }
+.fnoteright {
+    display: block;
+    font-size: 0.83333em;
+    letter-spacing: auto;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 1em 0
+    }
+.fnoteright1 {
+    display: block;
+    font-size: 0.83333em;
+    letter-spacing: auto;
+    line-height: 1.5em;
+    text-align: right;
+    margin: 1em 0
+    }
+.fnoteright2 {
+    display: block;
+    font-size: 0.83333em;
+    letter-spacing: auto;
+    line-height: 1.5em;
+    text-align: center;
+    margin: 1em 0
+    }
+.msonormal {
+    display: block;
+    text-align: justify;
+    margin: 1em 0
+    }
+.msonormal1 {
+    display: block;
+    text-align: justify;
+    text-indent: 24pt;
+    margin: 1em 0
+    }
+.sgc-toc-level {
+    display: block;
+    margin-left: 0
+    }
+.sgc-toc-level1 {
+    display: block;
+    margin-left: 2em
+    }
+.sgc-toc-level2 {
+    display: block;
+    margin-left: 0;
+    text-align: center
+    }
+.sgc-toc-title {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1em;
+    text-align: center
+    }
+.sgc-toc-title1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0.67em 0
+    }

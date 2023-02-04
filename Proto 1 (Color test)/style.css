@@ -1,0 +1,64 @@
+:root 
+{ 
+    --colorName: "Lightning Storm";
+    --backgroundColor: #192629;
+    --subtleBackA: #353A3A;
+    --subtleBackB: #484E4F;
+    --accentA: #9DC8CF;
+    --accentB: #405F69;
+}
+
+  /* Color Storage
+:root 
+{ 
+    --colorName: "Lightning Storm";
+    --backgroundColor: #192629;
+    --subtleBackA: #353A3A;
+    --subtleBackB: #484E4F;
+    --accentA: #9DC8CF;
+    --accentB: #405F69;
+}
+
+  */
+
+html{
+    font-size: 10px;
+    font-family:'Noto Sans SC', sans-serif;
+    background-color: var(--backgroundColor);
+    color: var(--accentA);
+}
+
+h1{
+    margin: 0;
+    padding: 20px 0;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 2px 2px 5px var(--accentB);
+}
+
+p,li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img
+{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+}
+
+body{
+    width: 600px;
+    margin: 5% auto;
+    background-color: var(--subtleBackA);
+    padding: 0 20px 20px 20px;
+    border: 5px solid var(--subtleBackB);
+}
+
+span:hover
+{
+    color:red
+}

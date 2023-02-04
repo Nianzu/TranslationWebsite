@@ -1,0 +1,11 @@
+
+</div> 
+        <div class="boxdivTranslation"> <!-- Translation section. Large text display left, detailed scrollable dictionary info right. -->
+            <div class="blownup"><!-- Blown-up text -->
+                <p id="blownupText" class="blownupText">老师</p>
+            </div> 
+            <div class="translation"><!-- Translation info -->
+                <p id="translationText" class="translationText">test translation</p>
+            </div> 
+        </div>
+        <script src="
