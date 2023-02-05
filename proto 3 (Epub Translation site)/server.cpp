@@ -12,7 +12,7 @@
 // #include "utilities.h"
 
 // Compilation command:
-// g++ server.cpp -o server
+// g++ server.cpp -g -o server -l curl
 
 #define PORT 80
 #define BUFFERSIZE 500000
@@ -217,12 +217,13 @@ int main(int argc, char const *argv[])
 
         // Read something from the connecting device and store it in buffer.
         // TODO: adaptive buffer size
-        char * buffer = (char*)malloc(BUFFERSIZE*sizeof(char));
+        char * buffer = (char*)malloc((BUFFERSIZE+1)*sizeof(char));
         memset(buffer,'\0',BUFFERSIZE*sizeof(char));
         
-
         if(read_http_header_main(new_socket, &buffer) >= 0)
         {
+            
+            decode_URL(&buffer);
 
             // process the header file
             http_header_main * header = new http_header_main;
