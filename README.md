@@ -1,4 +1,4 @@
-![Logo](content\png\mandarin-navigator-high-resolution-color-logo-crop.png)
+![Logo](https://github.com/Nianzu/TranslationWebsite/tree/main/content/png/mandarin-navigator-high-resolution-color-logo-crop.png?raw=true)
 
 # Mandarin Navigator
 
