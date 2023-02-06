@@ -11,10 +11,18 @@ function changeDef(event){
   textToUpdate.innerText=event.target.innerText
     try
     {
-        translation.innerText=dic[event.target.innerText]["def"][0]
+        // https://stackoverflow.com/questions/1357614/javascript-dynamic-array-of-strings
+        var html = '<ul>';
+        for (var i=0; i<dic[event.target.innerText]["def"].length; i++) {
+        html += '<li>' + dic[event.target.innerText]["def"][i] + '</li>';
+        }
+        html += "</ul>"
+        translation.innerHTML=html
+        pinyin.innerText=dic[event.target.innerText]["pinyin"]
     }
     catch(error)
     {
-        translation.innerText="UNKNOWN"
+        translation.innerHTML=""
+        pinyin.innerText=""
     }
 }

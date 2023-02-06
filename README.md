@@ -61,12 +61,13 @@ Note: While this methodology is relatively simple, it may not always provide the
     * Process \<br\> tags as \<p\> tags.
 
 ### html/css/js
-* Fix translation display
 * Add options menu
 * Allow users to navigate between pages
 * Allow users to click and get a translation of the individual character.
 * Implement accounts
 * Add home page that allows searching of available books.
+* Make translation box resizing more intelligent.
+![](/content/Qu_problem_example.png)
 
 ### Misc
 * Cleanup and commenting pass

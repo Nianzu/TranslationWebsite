@@ -1,5 +1,6 @@
 var spans = document.querySelectorAll("span");
 var textToUpdate = document.getElementById("blownupText");
 var translation = document.getElementById("translationText");
+var pinyin = document.getElementById("pinyinText");
 
 var dic = {

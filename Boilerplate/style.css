@@ -67,11 +67,6 @@
         display: flex;
         justify-content: left;
     }
-    .blownupText
-    {
-        font-size: 100px;
-        margin: 0;
-    }
     .boxdivCenter
     {
         margin: 0 1%;
@@ -103,6 +98,11 @@
         display: flex;
         justify-content: center;
     }
+    .blownupText
+    {
+        font-size: 100px;
+        margin: 0;
+    }
     .translation
     {
         flex: 1 1 50%;
@@ -110,6 +110,30 @@
         border-style: solid;
         border-width: 2px;
         border-radius: 10px;
+        margin: 0;
+    }
+    .pinyinDiv
+    {
+        flex: 1 1 50%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .pinyinText
+    {
+        font-size: 50px;
+        margin: 0;
+    }
+    .translationDiv
+    {
+        /* flex: 1 1 50%; */
+        margin: 3%;
+        /* display: flex; */
+        /* justify-content: left; */
+    }
+    .translationText
+    {
+        font-size: 20px;
         margin: 0;
     }
     span:hover
@@ -160,12 +184,7 @@
         margin: 10px 1%;
         display: flex;
         justify-content: left;
-    }
-    .blownupText
-    {
-        font-size: 100px;
-        margin: 0;
-    }
+    }    
     .boxdivCenter
     {
         margin: 0 1%;
@@ -197,6 +216,11 @@
         display: flex;
         justify-content: center;
     }
+    .blownupText
+    {
+        font-size: 100px;
+        margin: 0;
+    }
     .translation
     {
         flex: 1 1 50%;
@@ -204,6 +228,30 @@
         border-style: solid;
         border-width: 2px;
         border-radius: 10px;
+        margin: 0;
+    }
+    .pinyinDiv
+    {
+        flex: 1 1 50%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .pinyinText
+    {
+        font-size: 50px;
+        margin: 0;
+    }
+    .translationDiv
+    {
+        /* flex: 1 1 50%; */
+        margin: 3%;
+        /* display: flex; */
+        /* justify-content: left; */
+    }
+    .translationText
+    {
+        font-size: 20px;
         margin: 0;
     }
     span:hover
