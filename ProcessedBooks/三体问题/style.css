@@ -41,7 +41,20 @@
         margin: 0;
     
     }
+}  
+
+
+@media (orientation: landscape) {
+    html{
+        font-size: 10px;
+        font-family:'Noto Sans SC', sans-serif;
+        background-color: white;
+        color: var(--accentB);
+        height: 100%;
+        margin: 0;
     
+    }
+}
     body
     {
         display: flex;
@@ -148,122 +161,4 @@
         font-size: 20px;
         transition-duration: 0.2s;
     }
-}
 
-@media (orientation: landscape) {
-    html{
-        font-size: 10px;
-        font-family:'Noto Sans SC', sans-serif;
-        background-color: white;
-        color: var(--accentB);
-        height: 100%;
-        margin: 0;
-    
-    }
-    
-    body
-    {
-        display: grid;
-        margin: 0;
-        height: 100%;
-        width: 100%;
-    }
-    
-    h1
-    {
-        font-size: 50px;
-        margin: 0;
-    }
-    .spanText
-    {
-        font-size: 20px;
-    }
-    .boxdivHead
-    {
-        flex: 1 1 5%;
-        margin: 10px 1%;
-        display: flex;
-        justify-content: left;
-    }    
-    .boxdivCenter
-    {
-        margin: 0 1%;
-        flex: 1 1 80%;
-        overflow-y:auto;
-        /*-ms-overflow-style: none;  /* IE and Edge */
-        /*scrollbar-width: none;  /* Firefox */
-    }
-    .boxdivCenter::-webkit-scrollbar
-    {
-        display: none;
-    }
-    
-    .boxdivTranslation
-    {
-        flex: 1 1 15%;
-        margin: 0 1% 1% 1%;
-        display: flex;
-        gap: 10px;
-    }
-    .blownup
-    {
-        flex: 1 1 50%;
-        border: var(--accentA);
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 10px;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-    }
-    .blownupText
-    {
-        font-size: 100px;
-        margin: 0;
-    }
-    .translation
-    {
-        flex: 1 1 50%;
-        border: var(--accentA);
-        border-style: solid;
-        border-width: 2px;
-        border-radius: 10px;
-        margin: 0;
-    }
-    .pinyinDiv
-    {
-        flex: 1 1 50%;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-    }
-    .pinyinText
-    {
-        font-size: 50px;
-        margin: 0;
-    }
-    .translationDiv
-    {
-        /* flex: 1 1 50%; */
-        margin: 3%;
-        /* display: flex; */
-        /* justify-content: left; */
-    }
-    .translationText
-    {
-        font-size: 20px;
-        margin: 0;
-    }
-    span:hover
-    {
-        color:red;
-        transition-duration: 0.2s;
-    }
-    
-    span
-    {
-        margin: 0;
-        font-size: 20px;
-        transition-duration: 0.2s;
-    }
-}

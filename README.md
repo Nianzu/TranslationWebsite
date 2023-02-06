@@ -11,6 +11,7 @@ A website where users can upload Mandarin ebook files and get translations for a
 * Multiple translation options for all words in the ebook.
 * Store books and reading history across devices.
 * User-friendly interface.
+* Convert between simplified and traditional character sets.
 
 ![](/content/Example_2023-02-05.png)
 
@@ -59,6 +60,7 @@ Note: While this methodology is relatively simple, it may not always provide the
     * Remove blank tags.
     * Remove content from within tags.
     * Process \<br\> tags as \<p\> tags.
+* Convert between simplified and traditional character sets.
 
 ### html/css/js
 * Add options menu
