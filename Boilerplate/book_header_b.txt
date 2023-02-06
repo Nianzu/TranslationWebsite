@@ -7,5 +7,6 @@
 </head>
 
     <body>
+    <div class="header">
         <div class="boxdivHead"> <!-- Header (Name of program, name of book, settings link) -->
             <h1>
