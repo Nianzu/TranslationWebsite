@@ -1,5 +1,4 @@
-![Logo](https://github.com/Nianzu/TranslationWebsite/tree/main/content/png/mandarin-navigator-high-resolution-color-logo-crop.png?raw=true)
-
+![](content\png\mandarin-navigator-high-resolution-color-logo-crop.png)
 # Mandarin Navigator
 
 A website where users can upload Mandarin ebook files and get translations for all the words in real-time.
