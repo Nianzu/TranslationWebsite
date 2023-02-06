@@ -12,19 +12,16 @@
 // #include "utilities.h"
 
 // Compilation command:
-// g++ server.cpp -g -o server -l curl
+// g++ server.cpp -g -l curl -o server
 
 #define PORT 80
 #define BUFFERSIZE 500000
 #define HEADER_READ_TIMEOUT 0.01 //seconds
 
-// TODO double check all malloc sizes
-// TODO https://dida.do/blog/how-to-extract-text-from-pdf
 struct http_header_main
 {
     char* process;
     char* filepath;
-    char* version;
     std::map<char*,char*> details;
 };
 
@@ -201,7 +198,6 @@ int main(int argc, char const *argv[])
     while(1)
     {
         // Wait for a new connection and accept it
-        // TODO: fork child process on active connection.
         printf("\nWaiting for connections...\n\n");
         if ((new_socket = accept(server_fd, (struct sockaddr *)&address, (socklen_t*)&addrlen))<0)
         {
@@ -215,7 +211,6 @@ int main(int argc, char const *argv[])
         printf("Connection accepted\n"); // DEBUG
 
         // Read something from the connecting device and store it in buffer.
-        // TODO: adaptive buffer size
         char * buffer = (char*)malloc((BUFFERSIZE+1)*sizeof(char));
         memset(buffer,'\0',BUFFERSIZE*sizeof(char));
         
@@ -258,7 +253,6 @@ int main(int argc, char const *argv[])
                         //printf("\'%s\'\n",buffer); //DEBUG
                         FILE* file;
                         file = fopen("test.txt", "w");
-                        // TODO write while reading to allow for larger files
                         int chars_written = 0;
                         do
                         {
@@ -271,7 +265,6 @@ int main(int argc, char const *argv[])
             }
             free(header->process);
             free(header->filepath);
-            // TODO free version
             delete(header);
         }
         
@@ -338,7 +331,6 @@ int process_header_main(http_header_main **header, char** head)
         strcat((*header)->filepath,words[1]);
     }
 
-    // TODO process remaining lines
     int line = 1;
     while(line <= lines_len)
     {
@@ -412,7 +404,6 @@ int generate_header(char** outputHeader, http_header_main **header)
     file_ending[j] = '\0';
     printf("Filetype: \'%s\'\n",file_ending);
 
-    // TODO protect against bad type
     char* content = contentTypeMap.at(file_ending);
     printf("Content: \'%s\'\n",content);
 

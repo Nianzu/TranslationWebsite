@@ -14,14 +14,6 @@
 
 struct stat st = {0};
 
-// TODO Filter pre-existing span tags
-// TODO Treat <br> as a <p> tag
-// TODO Sanitize other tags
-// TODO not in this document, but properly display definitions
-// TODO not in this document, but add a menu for adjustments
-// TODO not in this document, but finish home page
-
-
 // https://stackoverflow.com/questions/22949500/how-to-create-file-inside-a-directory-using-c  
 int mkdir_dne(char* dir)
 {
