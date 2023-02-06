@@ -1,7 +1,7 @@
 
 # Mandarin Navigator
 
-![](content\png\mandarin-navigator-high-resolution-color-logo-crop.png)
+![](/content/png/mandarin-navigator-high-resolution-color-logo-crop.png)
 
 A website where users can upload Mandarin ebook files and get translations for all the words in real-time.
 
@@ -12,7 +12,7 @@ A website where users can upload Mandarin ebook files and get translations for a
 * Store books and reading history across devices.
 * User-friendly interface.
 
-![](content\Example_2023-02-05.png)
+![](/content/Example_2023-02-05.png)
 
 ## Technologies
 
