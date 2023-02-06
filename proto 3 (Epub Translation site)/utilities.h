@@ -1,5 +1,10 @@
 #include <curl/curl.h>
 
+#ifndef utilities
+#define utilities
+
+/* All the stuff you want in the header file goes between the #define and the #endif */
+
 // Check if w2 is contained in w1
 //
 //https://stackoverflow.com/questions/27090069/check-if-a-string-of-type-char-contains-another-string
@@ -49,3 +54,29 @@ int decode_URL(char** url)
     }
     return -1;
 }
+
+void strcat_safe(char** _dst, char*_src)
+{
+    (*_dst) = (char*)realloc(*_dst,(strlen(*_dst) + strlen(_src) + 1)*sizeof(char));
+    strcat((*_dst),_src);
+}
+
+void strcat_safe_old(char** _dst, char*_src)
+{
+    char* temp = (char*)calloc(strlen(_src) + strlen(*_dst)+1,sizeof(char));
+    strcpy(temp,*_dst);
+    strcat(temp,_src);
+    free(*_dst);
+    (*_dst) = (char*)calloc(strlen(temp)+1,sizeof(char));
+    strcpy(*_dst,temp);
+    free(temp);
+}
+
+void strcpy_safe(char** _dst, char*_src)
+{
+    free(*_dst);
+    (*_dst) = (char*)calloc(strlen(_src) +1,sizeof(char));
+    strcpy(*_dst,_src);
+}
+
+#endif

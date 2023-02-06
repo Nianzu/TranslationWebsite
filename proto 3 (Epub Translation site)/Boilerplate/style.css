@@ -1,0 +1,221 @@
+
+:root 
+{ 
+    --colorName: "Lightning Storm";
+    --backgroundColor: #192629;
+    --subtleBackA: #353A3A;
+    --subtleBackB: #484E4F;
+    --accentA: #9DC8CF;
+    --accentB: #405F69;
+}
+/*
+:root 
+{ 
+    --colorName: "Lightning Storm Light";
+    --backgroundColor: white;
+    --subtleBackA: #353A3A;
+    --subtleBackB: #484E4F;
+    --accentA: #405F69;
+    --accentB: #9DC8CF;
+}
+
+ */ /* Color Storage
+:root 
+{ 
+    --colorName: "Lightning Storm";
+    --backgroundColor: #192629;
+    --subtleBackA: #353A3A;
+    --subtleBackB: #484E4F;
+    --accentA: #9DC8CF;
+    --accentB: #405F69;
+}
+
+  */
+@media (orientation: portrait) {
+    html{
+        font-size: 10px;
+        font-family:'Noto Sans SC', sans-serif;
+        background-color: var(--backgroundColor);
+        color: var(--accentA);
+        height: 100%;
+        margin: 0;
+    
+    }
+    
+    body
+    {
+        display: flex;
+        flex-flow: column;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    h1
+    {
+        font-size: 50px;
+        margin: 0;
+    }
+    .spanText
+    {
+        font-size: 20px;
+    }
+    .boxdivHead
+    {
+        flex: 1 1 5%;
+        margin: 10px 1%;
+        display: flex;
+        justify-content: left;
+    }
+    .blownupText
+    {
+        font-size: 100px;
+        margin: 0;
+    }
+    .boxdivCenter
+    {
+        margin: 0 1%;
+        flex: 1 1 80%;
+        overflow-y:auto;
+        /*-ms-overflow-style: none;  /* IE and Edge */
+        /*scrollbar-width: none;  /* Firefox */
+    }
+    .boxdivCenter::-webkit-scrollbar
+    {
+        display: none;
+    }
+    
+    .boxdivTranslation
+    {
+        flex: 1 1 15%;
+        margin: 0 1% 1% 1%;
+        display: flex;
+        gap: 10px;
+    }
+    .blownup
+    {
+        flex: 1 1 50%;
+        border: var(--accentA);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .translation
+    {
+        flex: 1 1 50%;
+        border: var(--accentA);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        margin: 0;
+    }
+    span:hover
+    {
+        color:red;
+        transition-duration: 0.2s;
+    }
+    
+    span
+    {
+        margin: 0;
+        font-size: 20px;
+        transition-duration: 0.2s;
+    }
+}
+
+@media (orientation: landscape) {
+    html{
+        font-size: 10px;
+        font-family:'Noto Sans SC', sans-serif;
+        background-color: white;
+        color: var(--accentB);
+        height: 100%;
+        margin: 0;
+    
+    }
+    
+    body
+    {
+        display: grid;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    h1
+    {
+        font-size: 50px;
+        margin: 0;
+    }
+    .spanText
+    {
+        font-size: 20px;
+    }
+    .boxdivHead
+    {
+        flex: 1 1 5%;
+        margin: 10px 1%;
+        display: flex;
+        justify-content: left;
+    }
+    .blownupText
+    {
+        font-size: 100px;
+        margin: 0;
+    }
+    .boxdivCenter
+    {
+        margin: 0 1%;
+        flex: 1 1 80%;
+        overflow-y:auto;
+        /*-ms-overflow-style: none;  /* IE and Edge */
+        /*scrollbar-width: none;  /* Firefox */
+    }
+    .boxdivCenter::-webkit-scrollbar
+    {
+        display: none;
+    }
+    
+    .boxdivTranslation
+    {
+        flex: 1 1 15%;
+        margin: 0 1% 1% 1%;
+        display: flex;
+        gap: 10px;
+    }
+    .blownup
+    {
+        flex: 1 1 50%;
+        border: var(--accentA);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .translation
+    {
+        flex: 1 1 50%;
+        border: var(--accentA);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        margin: 0;
+    }
+    span:hover
+    {
+        color:red;
+        transition-duration: 0.2s;
+    }
+    
+    span
+    {
+        margin: 0;
+        font-size: 20px;
+        transition-duration: 0.2s;
+    }
+}

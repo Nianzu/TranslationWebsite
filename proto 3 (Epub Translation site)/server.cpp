@@ -20,7 +20,6 @@
 
 // TODO double check all malloc sizes
 // TODO https://dida.do/blog/how-to-extract-text-from-pdf
-// TODO crashes when chinese text in path
 struct http_header_main
 {
     char* process;
@@ -329,7 +328,8 @@ int process_header_main(http_header_main **header, char** head)
     strcpy((*header)->process,words[0]);
     if(strcmp(words[1],"/") == 0)
     {
-        (*header)->filepath = (char*)"./home.html";
+        (*header)->filepath = (char*) calloc(11+2,sizeof(char));
+        strcpy((*header)->filepath,(char*)"./home.html");
     }
     else
     {

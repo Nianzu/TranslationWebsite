@@ -1,0 +1,36 @@
+# CC-CEDICT
+# Community maintained free Chinese-English dictionary.
+# 
+# Published by MDBG
+# 
+# License:
+# Creative Commons Attribution-ShareAlike 4.0 International License
+# https://creativecommons.org/licenses/by-sa/4.0/
+# 
+# Referenced works:
+# CEDICT - Copyright (C) 1997, 1998 Paul Andrew Denisowski
+# 
+# CC-CEDICT can be downloaded from:
+# https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+# 
+# Additions and corrections can be sent through:
+# https://cc-cedict.org/editor/editor.php
+# 
+# For more information about CC-CEDICT see:
+# https://cc-cedict.org/wiki/
+# 
+#! version=1
+#! subversion=0
+#! format=ts
+#! charset=UTF-8
+#! entries=121366
+#! publisher=MDBG
+#! license=https://creativecommons.org/licenses/by-sa/4.0/
+#! date=2022-11-25T22:04:11Z
+#! time=1669413851
+% % [pa1] /percent (Tw)/
+㕘 参 [can1] /variant of 參|参[can1]/
+對不起 对不起 [dui4 bu5 qi3] /I'm sorry; excuse me; I beg your pardon/to let (sb) down; to disappoint/
+很 很 [hen3] /(adverb of degree)/quite/very/awfully/
+不很 不很 [bu4 hen3] /not very/
+好 好 [hao3] /good/well/proper/good to/easy to/very/so/(suffix indicating completion or readiness)/(of two people) close/on intimate terms/(after a personal pronoun) hello/
