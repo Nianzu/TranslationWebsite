@@ -1,0 +1,59 @@
+/* .main{
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0;
+    border: solid 5px green;
+} */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;  
+  }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between;
+    row-gap: 10px; */
+}
+
+.title {
+    background-image: url("content/svg/logo-color.svg");
+    background-size: 100%;
+    background-position: 50% 50%;
+    flex:40%;
+    padding-top: 5%;
+    border: solid 2px red;
+}
+
+.collection {
+    flex:35%;
+    border: solid 2px red;
+}
+
+.account {
+    flex:25%;
+    border: solid 2px red;
+}
+
+.body{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: row;
+    /* height: 100%; */
+    /* border: solid 2px blue; */
+}
+.search{
+    flex:75%;
+    border: solid 2px red;
+    height: 100%;
+}
+.upload{
+    flex:25%;
+    border: solid 2px red;
+    height: auto;
+}

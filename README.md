@@ -50,6 +50,7 @@ Note: While this methodology is relatively simple, it may not always provide the
 * Implement accounts
 * Implement duplicate detection
 * Process on upload
+* Trying to access a directory but not a file crashes the server
 
 ### Converter
 * Investigate using [this method](https://dida.do/blog/how-to-extract-text-from-pdf) to extract text from PDF files.
@@ -70,6 +71,7 @@ Note: While this methodology is relatively simple, it may not always provide the
 * Add home page that allows searching of available books.
 * Make translation box resizing more intelligent.
 ![](/content/Qu_problem_example.png)
+* Make scrollbar a fancy bottom one.
 
 ### Misc
 * Cleanup and commenting pass
