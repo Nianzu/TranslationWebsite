@@ -51,6 +51,7 @@ Note: While this methodology is relatively simple, it may not always provide the
 * Implement duplicate detection
 * Process on upload
 * Trying to access a directory but not a file crashes the server
+* Not uploading non-text (binary) files correctly.
 
 ### Converter
 * Investigate using [this method](https://dida.do/blog/how-to-extract-text-from-pdf) to extract text from PDF files.
