@@ -1,14 +1,12 @@
+// Nico Zucca, 1/2023
+
 #include <curl/curl.h>
 
 #ifndef utilities
 #define utilities
 
-/* All the stuff you want in the header file goes between the #define and the #endif */
-
 // Check if w2 is contained in w1
-//
-//https://stackoverflow.com/questions/27090069/check-if-a-string-of-type-char-contains-another-string
-//
+// Source: https://stackoverflow.com/questions/27090069/check-if-a-string-of-type-char-contains-another-string
 bool contains(char* w1, char* w2)
 {
     int i=0;
@@ -32,7 +30,8 @@ bool contains(char* w1, char* w2)
     return false;
 }
 
-// https://curl.se/libcurl/c/curl_easy_unescape.html
+// Uses curl to process percent-encoded URLS, returns 0 on success.
+// Source: https://curl.se/libcurl/c/curl_easy_unescape.html
 int decode_URL(char** url)
 {
     CURL *curl = curl_easy_init();
@@ -44,7 +43,6 @@ int decode_URL(char** url)
         {
             *url = (char*)realloc(*url,(strlen(decoded)+1)*sizeof(char));
             strcpy(*url,decoded);
-            // printf("Decoded: %s\n", decoded); //DEBUG
             curl_free(decoded);
             curl_easy_cleanup(curl);
             return 0;
@@ -55,23 +53,14 @@ int decode_URL(char** url)
     return -1;
 }
 
+// A safe version of strcat that can't overflow
 void strcat_safe(char** _dst, char*_src)
 {
     (*_dst) = (char*)realloc(*_dst,(strlen(*_dst) + strlen(_src) + 1)*sizeof(char));
     strcat((*_dst),_src);
 }
 
-void strcat_safe_old(char** _dst, char*_src)
-{
-    char* temp = (char*)calloc(strlen(_src) + strlen(*_dst)+1,sizeof(char));
-    strcpy(temp,*_dst);
-    strcat(temp,_src);
-    free(*_dst);
-    (*_dst) = (char*)calloc(strlen(temp)+1,sizeof(char));
-    strcpy(*_dst,temp);
-    free(temp);
-}
-
+// A safe version of strcpy that can't overflow
 void strcpy_safe(char** _dst, char*_src)
 {
     free(*_dst);

@@ -13,7 +13,7 @@ A website where users can upload Mandarin ebook files and get translations for a
 * User-friendly interface.
 * Convert between simplified and traditional character sets.
 
-![](/content/Example_2023-02-05.png)
+![](/content/Example_2023-02-20.png)
 
 ## Technologies
 
@@ -75,7 +75,6 @@ Note: While this methodology is relatively simple, it may not always provide the
 * Make scrollbar a fancy bottom one.
 
 ### Misc
-* Cleanup and commenting pass
 
 ## Contributions
 
